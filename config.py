@@ -13,7 +13,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5575032909"))
 _sudo_raw = os.environ.get("SUDO_USERS", "5575032909").strip()
 SUDO_USERS = list(map(int, _sudo_raw.split())) if _sudo_raw else []
 
-MONGO_URL = os.environ.get("MONGO_URL", "MONGO_URL", "mongodb+srv://abcdef95108_db_user:lzSM3yBBKPsrgYUQ@cluster0.r2pwqnt.mongodb.net/?appName=Cluster0")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://abcdef95108_db_user:lzSM3yBBKPsrgYUQ@cluster0.r2pwqnt.mongodb.net/?appName=Cluster0")
 
 # BUG FIX: int("-") crashes. Default to 0 if not set.
 _channel_raw = os.environ.get("CHANNEL_ID", "0").strip()
