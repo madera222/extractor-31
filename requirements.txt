@@ -1,0 +1,29 @@
+# Core Telegram bot
+pyrofork
+tgcrypto
+pyromod
+
+# Web server
+flask
+gunicorn
+
+# Database
+motor
+
+# HTTP / async
+aiohttp
+aiofiles
+requests
+cloudscraper
+
+# Crypto / encoding
+pycryptodome
+
+# Utilities
+python-dotenv
+pytz
+bs4
+hachoir
+
+# Excel / HTML parsing (used by some extractor modules)
+openpyxl
